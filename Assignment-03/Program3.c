@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////
 // Write  a Program which accept one number from user and
 // print even factor of that number on screen.
-// Input : 24
-// Output : 2 4 6 8 12
+// Input : 36
+// Output : 2 4 6 12 18
 ///////////////////////////////////////////////////////////////
 
 #include<stdio.h>
