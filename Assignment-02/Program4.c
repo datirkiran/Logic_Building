@@ -9,7 +9,7 @@ void Display(int iNo, int iFrequency)
 {
     int iCnt = 0;
     // Write Updater
-    for(int iCnt = 0; iCnt < iFrequency; iCnt++)
+    for(int iCnt = 1; iCnt <= iFrequency; iCnt++)
     {
         printf("%d\n", iNo);
     }
