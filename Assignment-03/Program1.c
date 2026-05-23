@@ -10,7 +10,7 @@ void PrintEven(int iNo)
     if (iNo <= 0) 
     {
         iNo = -iNo;
-        return;
+        
     }
 
     printf("First %d even numbers are:\n", iNo);
