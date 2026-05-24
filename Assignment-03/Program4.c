@@ -10,17 +10,17 @@
 
 #include<stdio.h>
 
-void DisplayConvert(char Cvalue)
+void DisplayConvert(char cValue)
 {
-    if((Cvalue >= 'A') && (Cvalue <= 'Z'))
+    if((cValue >= 'A') && (cValue <= 'Z'))
     {
-        Cvalue = Cvalue + 32;
-        printf("Converted character is : %c\n", Cvalue);
+        cValue = cValue + 32;
+        printf("Converted character is : %c\n", cValue);
     }
-    else if((Cvalue >= 'a') && (Cvalue <= 'z'))
+    else if((cValue >= 'a') && (cValue <= 'z'))
     {
-        Cvalue = Cvalue - 32;
-        printf("Converted character is : %c\n", Cvalue);
+        cValue = cValue - 32;
+        printf("Converted character is : %c\n", cValue);
     }
     else
     {

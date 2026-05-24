@@ -7,16 +7,16 @@
 
 #include<stdio.h>
 
-void DisplayFacter(int iNo)
+void DisplayFactor(int iNo)
 {
     int iCnt = 0;
 
     if(iNo <= 0) 
     {
         iNo = -iNo;
-        return;
+        
     }
-    for(iCnt = 1; iCnt <= iNo/2; iCnt++)
+    for(iCnt = 2; iCnt <= iNo/2; iCnt+=2)
     {
         if((iNo % iCnt) == 0 && (iCnt % 2) == 0)
         {
@@ -33,7 +33,7 @@ void DisplayFacter(int iNo)
     printf("Enter a number: ");
     scanf("%d", &iValue);
 
-    DisplayFacter(iValue);
+    DisplayFactor(iValue);
 
     return 0;
   
