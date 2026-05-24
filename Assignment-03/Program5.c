@@ -11,10 +11,10 @@ typedef int BOOL;
 #define TRUE 1
 #define FALSE 0
 
-BOOL ChkVowel(char Cvalue)
+BOOL ChkVowel(char cValue)
 {
-    if((Cvalue == 'A') || (Cvalue == 'E') || (Cvalue == 'I') || (Cvalue == 'O') || (Cvalue == 'U') ||
-       (Cvalue == 'a') || (Cvalue == 'e') || (Cvalue == 'i') || (Cvalue == 'o') || (Cvalue == 'u'))
+    if((cValue == 'A') || (cValue == 'E') || (cValue == 'I') || (cValue == 'O') || (cValue == 'U') ||
+       (cValue == 'a') || (cValue == 'e') || (cValue == 'i') || (cValue == 'o') || (cValue == 'u'))
     {
         return TRUE;
     }

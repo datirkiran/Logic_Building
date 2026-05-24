@@ -9,18 +9,18 @@
 
 void DisplayFacter(int iNo)
 {
-    int i = 0;
+    int iCnt = 0;
 
     if(iNo <= 0) 
     {
         iNo = -iNo;
         return;
     }
-    for(i = 1; i <= iNo/2; i++)
+    for(iCnt = 1; iCnt <= iNo/2; iCnt++)
     {
-        if((iNo % i) == 0 && (i % 2) == 0)
+        if((iNo % iCnt) == 0 && (iCnt % 2) == 0)
         {
-            printf("%d \n", i);
+            printf("%d \n", iCnt);
         }
     }
  
