@@ -15,6 +15,11 @@ int FactDiff(int iNo)
     int iSumFact = 0;
     int iSumNonFact = 0;
 
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+
     for (iCnt = 1; iCnt < iNo; iCnt++)
     {
         if (iNo % iCnt == 0)
@@ -38,7 +43,7 @@ int main()
     scanf("%d", &iValue);
 
     iRet = FactDiff(iValue);
-    printf("Difference between summation of factors and non factors is : %d\n", iRet);  
+    printf("Difference between factors and non factors is : %d\n", iRet);  
 
     return 0;
 }
