@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////
 // Write a program which accept number from user and return 
-// difference between summation of all its factors and non factors.
+// difference between subtraction of all its factors and non factors.
 //
 // Input : 12                 Input : 10   
 // Output : -34               Output : -29
