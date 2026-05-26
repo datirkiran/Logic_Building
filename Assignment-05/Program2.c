@@ -11,9 +11,12 @@
 void Display( int iNo) 
 {
     int iCnt = 0;
-    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    iCnt = 1;
+    
+    while( iCnt <= iNo)
     {
         printf("%d ", iCnt);
+        iCnt++;
     }
 }
 
