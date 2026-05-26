@@ -15,11 +15,6 @@ int FactDiff(int iNo)
     int iSumFact = 0;
     int iSumNonFact = 0;
 
-    if(iNo < 0)
-    {
-        iNo = -iNo;
-    }
-
     for (iCnt = 1; iCnt < iNo; iCnt++)
     {
         if (iNo % iCnt == 0)
