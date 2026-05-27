@@ -11,9 +11,13 @@
 void MultipleDisplay( int iNo) 
 {
     int iCnt = 0;
-    for(iCnt = 1; iCnt <= 5; iCnt++)
+    iCnt = 1;
+
+    while(iCnt <= 5)
     {
-        printf("%d ", (iNo * iCnt));
+        iNo = iNo * iCnt;
+        printf("%d ", iNo);
+        iCnt++;
     }
 }
 
